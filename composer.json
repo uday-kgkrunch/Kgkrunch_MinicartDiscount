@@ -1,0 +1,37 @@
+{
+    "name": "kgkrunch-uday/minicart-discount",
+    "description": "Add discount information to the minicart in Magento 2",
+    "keywords": [
+        "magento 2",
+        "magento",
+        "minicart",
+        "discount",
+        "magento 2 extension",
+        "magento 2 extension free"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "magento/module-checkout": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "kgkrunch",
+            "email": "kg@gmail.com",
+            "role": "Magento 2 Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kgkrunch\\MinicartDiscount\\": ""
+        }
+    }
+}
